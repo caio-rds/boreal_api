@@ -1,4 +1,5 @@
 from fastapi import HTTPException
+
 from database.database import Database
 from service.auth import AuthHandler
 
