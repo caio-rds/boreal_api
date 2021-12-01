@@ -32,4 +32,4 @@ async def get_bears(username=Depends(auth_handler.auth_wrapper)):
         for x in r:
             beer_name.append(x['name'])
 
-        return {"names": beer_name}
+        return jsonable_encoder({"names": beer_name})
