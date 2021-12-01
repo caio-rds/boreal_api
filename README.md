@@ -85,7 +85,7 @@ Depois de estar logado, ainda com o token no auth bearer
 
 Retornará um dicionário com uma lista de nomes de cervejas obtidos de uma API terceira
 
-### unprotected
+### Unprotected
 
 A rota '/unprotected' retornará
 ```{"Hello": "World"}```
